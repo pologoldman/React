@@ -56,3 +56,12 @@ code {
   flex-direction: column;
   z-index: 99;
 }
+
+.heure{
+  display: flex;
+  justify-content: flex-start;
+  width: 80vw;
+  font-family: "Helvetica Neue-Medium";
+  z-index: 99;
+  margin-top: 22px;
+}

@@ -18,6 +18,7 @@ import Titre from "./components/Titre";
 import Input_title from "./components/Input_title";
 import Niveau from "./components/Niveau";
 import Details from "./components/Details";
+import DateTime from "./components/date";
 
 function App() {
     
@@ -26,6 +27,7 @@ function App() {
         <Router>
             <Switch>
                     <Route exact path='/' >
+                        <DateTime/>
                         <Utilisateur/>
                         <Recherche/>
                         <Planning/>
@@ -35,6 +37,7 @@ function App() {
                         <Footer/>
                     </Route>
                     <Route exact path="/note" >
+                        <DateTime/>
                         <Header/>
                         <Categorie/>
                         <Footer/>
@@ -43,6 +46,7 @@ function App() {
              
             <Switch>
                 <Route exact path="/nouvelle-note" >
+                    <DateTime/>
                     <Fond/>
                     <div className='box'>
                         <Titre/>
@@ -50,7 +54,6 @@ function App() {
                         <Details/>
                         <Niveau/>
                     </div>
-                    
                 </Route>
             </Switch>
         </Router>
