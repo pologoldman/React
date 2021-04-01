@@ -1,0 +1,142 @@
+// This is the project stylesheet
+
+// Colors
+$alice-blue: rgba(242, 241, 255, 1);
+$black: rgba(0, 0, 0, 1);
+$cornflower-blue: rgba(86, 143, 255, 1);
+$dark-orange: rgba(238, 127, 1, 1);
+$dark-orange-2: rgba(241, 124, 1, 1);
+$dark-slate-gray: rgba(74, 74, 74, 1);
+$dark-turquoise: rgba(0, 170, 195, 1);
+$dim-gray: rgba(102, 102, 102, 1);
+$gainsboro: rgba(219, 219, 219, 1);
+$gold: rgba(255, 210, 5, 1);
+$green: rgba(15, 169, 88, 1);
+$medium-sea-green: rgba(46, 175, 82, 1);
+$medium-slate-blue: rgba(107, 97, 237, 1);
+$red: rgba(234, 11, 11, 1);
+$red-2: rgba(255, 2, 2, 1);
+$silver: rgba(196, 196, 196, 1);
+$transparent-black: rgba(0, 0, 0, 0.05);
+$transparent-black-2: rgba(0, 0, 0, 0.6);
+$transparent-black-3: rgba(0, 0, 0, 0.3);
+$transparent-black-4: rgba(0, 0, 0, 0.25);
+$transparent-black-5: rgba(0, 0, 0, 0.32);
+$transparent-black-6: rgba(0, 0, 0, 0.2);
+$transparent-dark-slate-gray: rgba(74, 74, 74, 0.2);
+$transparent-dark-turquoise: rgba(2, 169, 195, 0.24);
+$transparent-light-steel-blue: rgba(178, 172, 255, 0.69);
+$transparent-medium-slate-blue: rgba(107, 97, 237, 0.44);
+$white: rgba(255, 255, 255, 1);
+$yellow-green: rgba(145, 190, 30, 1);
+// Typographies
+@mixin abhaya-libre-13-bold {
+  font-family: "Abhaya Libre";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin helvetica-bold {
+  font-family: "Helvetica";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin helvetica-neue-10-regular {
+  font-family: "Helvetica Neue";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin helvetica-neue-11-light {
+  font-family: "Helvetica Neue";
+  font-size: 11px;
+  font-weight: 300;
+  line-height: normal;
+}
+@mixin helvetica-neue-11-medium {
+  font-family: "Helvetica Neue";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+@mixin helvetica-neue-11-regular {
+  font-family: "Helvetica Neue";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin helvetica-neue-12-light {
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: normal;
+}
+@mixin helvetica-neue-12-medium {
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+}
+@mixin helvetica-neue-13-medium {
+  font-family: "Helvetica Neue";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: normal;
+}
+@mixin helvetica-neue-15-medium {
+  font-family: "Helvetica Neue";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;
+}
+@mixin helvetica-neue-15-regular {
+  font-family: "Helvetica Neue";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin helvetica-neue-17-medium {
+  font-family: "Helvetica Neue";
+  font-size: 17px;
+  font-weight: 500;
+  line-height: normal;
+}
+@mixin helvetica-neue-20-medium {
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+@mixin helvetica-neue-8-light {
+  font-family: "Helvetica Neue";
+  font-size: 8px;
+  font-weight: 300;
+  line-height: normal;
+}
+@mixin helvetica-neue-9-medium {
+  font-family: "Helvetica Neue";
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+}
+@mixin helvetica-regular {
+  font-family: "Helvetica";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+// Custom 
+@mixin rounded-mplus-1c-30-medium {
+  font-family: "Helvetica Neue";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: normal;
+}
+@mixin helvitica-neue-16-medium {
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}

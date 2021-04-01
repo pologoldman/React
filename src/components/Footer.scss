@@ -1,0 +1,178 @@
+@import "./stylesheet.scss";
+
+.footer {
+  background-color: $white;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  justify-content: space-around;
+  bottom: 0;
+}
+.notes3 {
+  margin-top: 2px;
+  margin-right: 49px;
+  position: relative;
+}
+.vector {
+  position: relative;
+}
+.vectorTwo {
+  position: absolute;
+  left: 2.81px;
+  top: 4.22px;
+}
+.vectorThree {
+  position: absolute;
+  left: 2.81px;
+  top: 8.48px;
+}
+.vectorFour {
+  position: absolute;
+  left: 2.81px;
+  top: 12.7px;
+}
+.vectorFive {
+  position: absolute;
+  left: 2.81px;
+  top: 16.92px;
+}
+.message {
+  margin-right: 49px;
+  padding: 3px 1.86px 0 0;
+  position: relative;
+}
+.ellipse9 {
+  width: 9px;
+  height: 9px;
+  background-color: $red;
+  border-radius: 50%;
+  position: absolute;
+  left: 17px;
+  top: 0;
+}
+.vectorSix {
+  margin-top: 2px;
+  margin-right: 48.89px;
+}
+.calendar1 {
+  margin-top: 3px;
+  margin-right: 49px;
+  position: relative;
+}
+.calendar {
+  width: 1.88px;
+  height: 1.88px;
+  background-color: $transparent-black-2;
+  position: absolute;
+  left: 3.56px;
+  top: 10.78px;
+}
+.calendarTwo {
+  width: 1.87px;
+  height: 1.88px;
+  background-color: $transparent-black-2;
+  position: absolute;
+  left: 7.31px;
+  top: 10.78px;
+}
+.calendarThree {
+  width: 1.88px;
+  height: 1.88px;
+  background-color: $transparent-black-2;
+  position: absolute;
+  left: 11.06px;
+  top: 10.78px;
+}
+.calendarFour {
+  width: 1.88px;
+  height: 1.88px;
+  background-color: $transparent-black-2;
+  position: absolute;
+  left: 14.81px;
+  top: 10.78px;
+}
+.calendarFive {
+  width: 1.88px;
+  height: 1.88px;
+  background-color: $transparent-black-2;
+  position: absolute;
+  left: 18.56px;
+  top: 10.78px;
+}
+.calendarSix {
+  width: 1.88px;
+  height: 1.88px;
+  background-color: $transparent-black-2;
+  position: absolute;
+  left: 3.56px;
+  top: 14.53px;
+}
+.group {
+  width: 1.87px;
+  height: 1.88px;
+  background-color: $transparent-black-2;
+  position: absolute;
+  left: 7.31px;
+  top: 14.53px;
+}
+.groupTwo {
+  width: 1.88px;
+  height: 1.88px;
+  background-color: $transparent-black-2;
+  position: absolute;
+  left: 11.06px;
+  top: 14.53px;
+}
+.groupThree {
+  width: 1.88px;
+  height: 1.88px;
+  background-color: $transparent-black-2;
+  position: absolute;
+  left: 14.81px;
+  top: 14.53px;
+}
+.groupFour {
+  width: 1.88px;
+  height: 1.88px;
+  background-color: $transparent-black-2;
+  position: absolute;
+  left: 3.56px;
+  top: 18.28px;
+}
+.groupFive {
+  width: 1.87px;
+  height: 1.88px;
+  background-color: $transparent-black-2;
+  position: absolute;
+  left: 7.31px;
+  top: 18.28px;
+}
+.groupSix {
+  width: 1.88px;
+  height: 1.88px;
+  background-color: $transparent-black-2;
+  position: absolute;
+  left: 11.06px;
+  top: 18.28px;
+}
+.groupSeven {
+  width: 1.88px;
+  height: 1.88px;
+  background-color: $transparent-black-2;
+  position: absolute;
+  left: 14.81px;
+  top: 18.28px;
+}
+.groupEight {
+  width: 1.88px;
+  height: 1.88px;
+  background-color: $transparent-black-2;
+  position: absolute;
+  left: 18.56px;
+  top: 14.53px;
+}
+.user1 {
+  margin-top: 3px;
+}

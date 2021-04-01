@@ -1,0 +1,28 @@
+@import "./stylesheet.scss";
+.component2 {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10vh;
+  margin-bottom: 20px;
+  z-index: 99;
+}
+.titreAnnul {
+  color: $dark-turquoise;
+  margin-right: 63px;
+  @include helvetica-neue-15-regular;
+}
+.titreNouvelleNote {
+  color: $black;
+  margin-right: 63px;
+  @include helvetica-neue-15-medium;
+}
+.titreAjouter {
+  color: $transparent-dark-slate-gray;
+  @include helvetica-neue-15-regular;
+}
+
+  a:link 
+  { 
+   text-decoration:none; 
+   
+  }

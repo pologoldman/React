@@ -1,0 +1,378 @@
+@import "./stylesheet.scss";
+
+.planing {
+  padding: 0 0 11px;
+  position: relative;
+  margin: 10px 0px 0px 0px;
+}
+.rectangle612 {
+  width: 318px;
+  height: 149px;
+  background-color: $alice-blue;
+  border-radius: 15px;
+  position: relative;
+}
+.reunion1 {
+  position: absolute;
+  left: 15px;
+  top: 55px;
+  width: 40px;
+  background-color: #6B61ED;
+  padding: 7px;
+  border-radius: 20%;
+}
+.aiderLesResidentsASeNourrir {
+  height: 15px;
+  width: 171px;
+  color: $medium-slate-blue;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 71px;
+  top: 65px;
+  @include helvetica-neue-12-medium;
+}
+.num13001400Pm {
+  height: 13px;
+  width: 78px;
+  color: $transparent-medium-slate-blue;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 71px;
+  top: 80px;
+  @include helvetica-neue-10-regular;
+}
+.vector_p {
+  position: absolute;
+  right: 23px;
+  top: 70px;
+}
+.voice_p {
+  background-color: $transparent-dark-turquoise;
+  border-radius: 11px;
+  padding: 5px 15.33px 5.07px 9px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 22px;
+  bottom: 30px;
+}
+.audio_p {
+  display: flex;
+  align-items: flex-start;
+}
+.flexWrapperOne_p {
+  margin-top: 5.65px;
+  border-radius: 50%;
+  padding: 2.27px 2.26px 2.25px;
+  position: relative;
+}
+.ellipse16_p {
+  position: absolute;
+  right: 1.13px;
+  bottom: 1.13px;
+}
+.ellipse15_p {
+  position: absolute;
+  right: 1.13px;
+  top: 1.14px;
+}
+.polygon3_p {
+  position: relative;
+}
+.rectangle87 {
+  width: 2.26px;
+  height: 5.65px;
+  background-color: $dark-orange-2;
+  margin-top: 14.7px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle97 {
+  width: 2.26px;
+  height: 10.18px;
+  background-color: $dark-orange-2;
+  margin-top: 12.44px;
+  margin-right: 1.14px;
+  border-radius: 1px;
+}
+.rectangle98 {
+  width: 2.26px;
+  height: 14.7px;
+  background-color: $dark-orange-2;
+  margin-top: 10.18px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle109 {
+  width: 2.26px;
+  height: 19.23px;
+  background-color: $dark-orange-2;
+  margin-top: 7.92px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle126 {
+  width: 2.26px;
+  height: 26.01px;
+  background-color: $dark-orange-2;
+  margin-top: 4.52px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle133 {
+  width: 2.26px;
+  height: 32.8px;
+  background-color: $dark-orange-2;
+  margin-top: 1.13px;
+  margin-right: 1.14px;
+  border-radius: 1px;
+}
+.rectangle127 {
+  width: 2.26px;
+  height: 28.27px;
+  background-color: $dark-orange-2;
+  margin-top: 3.39px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle115 {
+  width: 2.26px;
+  height: 19.23px;
+  background-color: $dark-orange-2;
+  margin-top: 7.92px;
+  margin-right: 1.14px;
+  border-radius: 1px;
+}
+.rectangle134 {
+  width: 2.26px;
+  height: 32.8px;
+  background-color: $dark-orange-2;
+  margin-top: 1.13px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle99 {
+  width: 2.26px;
+  height: 14.7px;
+  background-color: $dark-orange-2;
+  margin-top: 10.18px;
+  margin-right: 1.14px;
+  border-radius: 1px;
+}
+.rectangle132 {
+  width: 2.26px;
+  height: 28.27px;
+  background-color: $dark-orange-2;
+  margin-top: 3.39px;
+  margin-right: 1.14px;
+  border-radius: 1px;
+}
+.rectangle104 {
+  width: 2.26px;
+  height: 10.18px;
+  background-color: $dark-orange-2;
+  margin-top: 12.44px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle92 {
+  width: 2.26px;
+  height: 5.65px;
+  background-color: $dark-orange-2;
+  margin-top: 14.7px;
+  margin-right: 1.14px;
+  border-radius: 1px;
+}
+.rectangle93 {
+  width: 2.26px;
+  height: 7.92px;
+  background-color: $dark-orange-2;
+  margin-top: 13.57px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle136 {
+  width: 2.26px;
+  height: 32.8px;
+  background-color: $dark-orange-2;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle129 {
+  width: 2.26px;
+  height: 28.27px;
+  background-color: $dark-orange-2;
+  margin-top: 2.26px;
+  margin-right: 1.14px;
+  border-radius: 1px;
+}
+.rectangle120 {
+  width: 2.26px;
+  height: 19.23px;
+  background-color: $silver;
+  margin-top: 7.92px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle94 {
+  width: 2.26px;
+  height: 7.92px;
+  background-color: $silver;
+  margin-top: 13.57px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle95 {
+  width: 2.26px;
+  height: 7.92px;
+  background-color: $silver;
+  margin-top: 13.57px;
+  margin-right: 1.14px;
+  border-radius: 1px;
+}
+.rectangle105 {
+  width: 2.26px;
+  height: 10.18px;
+  background-color: $silver;
+  margin-top: 12.44px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle117 {
+  width: 2.26px;
+  height: 21.49px;
+  background-color: $silver;
+  margin-top: 6.79px;
+  margin-right: 1.14px;
+  border-radius: 1px;
+}
+.rectangle119 {
+  width: 2.26px;
+  height: 24.88px;
+  background-color: $silver;
+  margin-top: 4.52px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle130 {
+  width: 2.26px;
+  height: 28.27px;
+  background-color: $silver;
+  margin-top: 2.26px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle138 {
+  width: 2.26px;
+  height: 32.8px;
+  background-color: $silver;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle139 {
+  width: 2.26px;
+  height: 32.8px;
+  background-color: $silver;
+  margin-right: 1.14px;
+  border-radius: 1px;
+}
+.rectangle131 {
+  width: 2.26px;
+  height: 28.27px;
+  background-color: $silver;
+  margin-top: 2.26px;
+  margin-right: 1.14px;
+  border-radius: 1px;
+}
+.rectangle118 {
+  width: 2.26px;
+  height: 21.49px;
+  background-color: $silver;
+  margin-top: 6.79px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle106 {
+  width: 2.26px;
+  height: 10.18px;
+  background-color: $silver;
+  margin-top: 13.57px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle96 {
+  width: 2.26px;
+  height: 7.92px;
+  background-color: $silver;
+  margin-top: 14.7px;
+  margin-right: 1.14px;
+  border-radius: 1px;
+}
+.rectangle111 {
+  width: 2.26px;
+  height: 19.23px;
+  background-color: $silver;
+  margin-top: 6.79px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle100 {
+  width: 2.26px;
+  height: 14.7px;
+  background-color: $silver;
+  margin-top: 9.05px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle90 {
+  width: 2.26px;
+  height: 5.65px;
+  background-color: $silver;
+  margin-top: 14.7px;
+  border-radius: 1px;
+  &:not(:last-of-type) {
+    margin-right: 1.14px;
+  }
+}
+.rectangle121 {
+  width: 2.26px;
+  height: 21.49px;
+  background-color: $silver;
+  margin-top: 5.65px;
+  margin-right: 1.14px;
+  border-radius: 1px;
+}
+.rectangle91 {
+  width: 2.26px;
+  height: 5.65px;
+  background-color: $silver;
+  margin-top: 14.7px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle144 {
+  width: 2.26px;
+  height: 21.49px;
+  background-color: $silver;
+  margin-top: 5.65px;
+  margin-right: 1.13px;
+  border-radius: 1px;
+}
+.rectangle142 {
+  width: 2.26px;
+  height: 14.7px;
+  background-color: $silver;
+  margin-top: 9.05px;
+  margin-right: 1.14px;
+  border-radius: 1px;
+}
+
+.title_evenement{
+  margin: 10px 10px 10px 10px;
+  position: relative ;
+}
+.title_evenement h2{
+  @include helvitica-neue-16-medium;
+}

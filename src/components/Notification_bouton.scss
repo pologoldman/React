@@ -1,0 +1,36 @@
+@import "./stylesheet.scss";
+
+.Two {
+    background-color: $white;
+    border-radius: 13px;
+    padding: 5px;
+    box-shadow: 0 1px 6px -1px $transparent-black-4;
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    margin-top: 3px;
+    margin-right: 11px;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .alimentation{
+    background-color: $gold;
+  }
+  .soins{
+    background-color: $yellow-green;
+  }
+  .intendance{
+      background-color: $dark-turquoise;
+  }
+  .image img{
+      width: 20px;
+  }
+  .mot{
+    color: $black;
+    display: flex;
+    align-items: center;
+    @include helvetica-neue-12-medium;
+  }

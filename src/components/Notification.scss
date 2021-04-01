@@ -1,0 +1,13 @@
+@import "./stylesheet.scss";
+.title{
+    margin: 10px 10px 10px 30px;
+}
+.title h2{
+    @include helvitica-neue-16-medium;
+}
+.categorie{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

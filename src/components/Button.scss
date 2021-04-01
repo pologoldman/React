@@ -1,0 +1,53 @@
+@import "./stylesheet.scss";
+.frame24 {
+    background-color: $white;
+    border-radius: 12px;
+    padding: 6px 16px 14px 10px;
+    box-shadow: 0 0 9px -2px $transparent-black-4;
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+    height: 75px;
+    min-width: 150px;
+  }
+  .flexWrapperTwo_b {
+    margin-right: 64px;
+    padding: 7px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .flexWrapperOne_b {
+    margin-bottom: 5px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 3px 4px 5px;
+    display: flex;
+    align-items: center;
+  }
+  .titleSoins {
+    height: 22px;
+    width: 44px;
+    color: $black;
+    display: flex;
+    align-items: center;
+    @include helvetica-neue-17-medium;
+  }
+  .chiffre {
+    max-width: 19px;
+    color: $black;
+    @include rounded-mplus-1c-30-medium;
+  }
+  .img-b{
+      width: 20px;
+      padding: 1px;
+  }
+
+.title_second{
+    display: flex;
+    align-items: center;
+    left: 15px;
+}
+.title_second img{
+    width: 20px;
+}

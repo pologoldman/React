@@ -1,0 +1,21 @@
+@import "./stylesheet.scss";
+
+.recherche {
+    background-color: $white;
+    border-radius: 10px;
+    padding: 12px 213px 11px 19px;
+    box-shadow: 0 0 32px -10px $transparent-black-4;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    margin: 20px 0px 20px 0px;
+  }
+  .loupe311 {
+    margin-right: 14px;
+    width: 20px;
+  }
+  .title_r {
+    color: $transparent-black-5;
+    @include helvetica-neue-11-medium;
+  }

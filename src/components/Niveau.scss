@@ -1,0 +1,15 @@
+@import "./stylesheet.scss";
+
+.image_n{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+}
+.image_n img{
+    width: 60px;
+}
+.heading{
+    color: $black;
+    @include helvetica-neue-15-medium;
+}
